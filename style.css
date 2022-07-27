@@ -1,3 +1,23 @@
-h1{
+h1 {
+    text-align: center;
+    text-decoration:underline blueviolet;
+}
+h2{
+    text-align: center;
+    text-decoration: underline red;
+}
+.box{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+}
+li{
+    display: flex;
+    list-style: none;
+    border-right: 1px solid;
+    width: 500px;
+    align-items: center;
     text-align: center;
 }
