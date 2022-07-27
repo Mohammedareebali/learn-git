@@ -1,2 +1,1 @@
-# wired-brain-recies
-# hello
+# wired-brain-recipies
