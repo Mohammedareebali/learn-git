@@ -12,12 +12,33 @@ h2{
     margin: 10px 0;
     display: flex;
     width: 100%;
+    background-color: aqua;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
 li{
     display: flex;
     list-style: none;
     border-right: 1px solid;
+    border-radius: 5px;
     width: 500px;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: yellow;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    margin: 0;
+    padding :10px;
+    background-color: aqua;
+}
+.box:hover{
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 252, 0.533);
+
 }
